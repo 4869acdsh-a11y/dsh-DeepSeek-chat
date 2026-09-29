@@ -1,0 +1,19 @@
+# 依赖与构建产物（本插件本身零依赖、无构建步骤，加着防手滑）
+node_modules/
+dist/
+build/
+
+# install.ps1 / uninstall.ps1 在 profile 目录里生成的备份
+*.bak-*
+package.json.bak-*
+
+# 日志与临时文件
+*.log
+*.tmp
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
