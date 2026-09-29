@@ -29,7 +29,7 @@
 **一条命令安装**：
 
 ```bash
-dsh plugin --profile <profile> install 4869acdsh-a11y/dsh-DeepSeek-chat
+dsh plugin --profile <profile> install acdsh4869/dsh-DeepSeek-chat
 ```
 
 装完**重启 DSH 实例**，再按 `Ctrl+Shift+R` 硬刷新页面。
